@@ -1,0 +1,5 @@
+n=int(input())
+k=int(input())
+d=int(k/n)
+print(d)
+print(k%n)
