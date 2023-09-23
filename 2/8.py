@@ -1,0 +1,8 @@
+a1=int(input())
+a2=int(input())
+b1=int(input())
+b2=int(input())
+if (b1==a1+1 and b2==a2) or (b2==a2+1 and b1==a1) or (b2==a2+1 and b1==a1+1) : print("YES")
+elif (b1==a1-1 and b2==a2) or (b2==a2-1 and b1==a1) or (b2==a2-1 and b1==a1-1) : print("YES")
+elif (b1==a1-1 and b2==a2+1) or (b1==a1+1 and b2==a2-1) : print("YES")
+else : print("NO") 

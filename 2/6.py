@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if (a==c and a==b) : print(3)
+elif (a==c and a!=b) or (a!=c and c==b) or (a==b and a!=c): print (2)
+else : print(0)
