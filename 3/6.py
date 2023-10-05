@@ -1,5 +1,0 @@
-input_str = input()
-A = input_str.split()
-max_value = max(A)
-max_index = A.index(max_value)
-print(max_value, max_index)
